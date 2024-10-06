@@ -15,7 +15,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/settings.php';
 require_once plugin_dir_path(__FILE__) . 'includes/departamentos.php';
 require_once plugin_dir_path(__FILE__) . 'includes/provincias.php';
 require_once plugin_dir_path(__FILE__) . 'includes/ajax-handler.php';
-
+require_once plugin_dir_path(__FILE__) . 'includes/db-functions.php';
 
 // Registrar shortcode del formulario
 function libro_reclamaciones_shortcode() {
