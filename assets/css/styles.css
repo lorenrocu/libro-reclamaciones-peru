@@ -135,9 +135,17 @@
 /* Responsive */
 @media (max-width: 768px) {
     .form-grid {
-        grid-template-columns: 1fr;
+        display: block;
     }
     #tutor-form .form-grid {
-        grid-template-columns: 1fr;
+        display: block;
     }
+
+    .libro-reclamaciones-datos-empresa {
+        flex-direction: column;
+        align-items: flex-start; /* Alinea los elementos a la izquierda */
+      }
+      .libro-reclamaciones-datos-empresa p {
+        margin-bottom: 10px; /* Opcional: separa cada elemento */
+      }
 }
